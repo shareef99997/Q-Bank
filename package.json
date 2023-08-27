@@ -1,11 +1,11 @@
 {
-  "homepage": "https://shareef99997.github.io/q-bank",
+  "homepage": "https://shareef99997.github.io/Q-Bank",
   "name": "q-bank",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "vite build",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
